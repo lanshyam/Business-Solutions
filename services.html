@@ -5,35 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Our Business Solutions</h1>
-        <nav>
-            <ul>
-                <a href="index.html"><button class="button">Home</button></a>
-                <a href="services.html"><button class="button">Services</button></a>
-                <a href="about.html"><button class="button">About Us</button></a>
-                <a href="contact.html"><button class="button">Contact</button></a>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Our Business Solutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="button">Home</a></li>
+                    <li><a href="services.html" class="button active">Services</a></li>
+                    <li><a href="about.html" class="button">About Us</a></li>
+                    <li><a href="contact.html" class="button">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="services">
-        <h2>Our Services</h2>
-        <div class="service-box">
-            <h3>Data Analytics</h3>
-            <p>Transform your business with actionable insights derived from data.</p>
-        </div>
-        <div class="service-box">
-            <h3>Business Optimization</h3>
-            <p>Increase efficiency and reduce costs through strategic data solutions.</p>
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-box">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3>Data Analytics</h3>
+                    <p>Transform your business with actionable insights derived from data.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-cogs service-icon"></i>
+                    <h3>Business Optimization</h3>
+                    <p>Increase efficiency and reduce costs through strategic data solutions.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-lock service-icon"></i>
+                    <h3>Data Security</h3>
+                    <p>Protect your business with advanced data security and compliance solutions.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-cloud service-icon"></i>
+                    <h3>Cloud Solutions</h3>
+                    <p>Leverage the power of cloud computing for scalability and flexibility.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>© 2025 Our Business Solutions. All Rights Reserved.</p>
+        <div class="container">
+            <p>© 2025 Our Business Solutions. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>

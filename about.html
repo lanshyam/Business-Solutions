@@ -5,31 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>About Us</h1>
-        <nav>
-            <ul>
-                <a href="index.html"><button class="button">Home</button></a>
-                <a href="services.html"><button class="button">Services</button></a>
-                <a href="about.html"><button class="button">About Us</button></a>
-                <a href="contact.html"><button class="button">Contact</button></a>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>About Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="button">Home</a></li>
+                    <li><a href="services.html" class="button">Services</a></li>
+                    <li><a href="about.html" class="button active">About Us</a></li>
+                    <li><a href="contact.html" class="button">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="about">
-        <h2>Our Mission</h2>
-        <p>We are a data-driven company committed to transforming businesses with actionable insights derived from data analytics and optimization strategies.</p>
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>We are a data-driven company committed to transforming businesses with actionable insights derived from data analytics and optimization strategies.</p>
 
-        <h3>Meet the Team</h3>
-        <p>We are a team of passionate professionals dedicated to providing innovative solutions for your business challenges.</p>
+            <h3>Meet the Team</h3>
+            <p>We are a team of passionate professionals dedicated to providing innovative solutions for your business challenges.</p>
+
+            <!-- Team Members Section -->
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 2">
+                    <h4>Shajith Shajahan</h4>
+                    <p>Business Analyst</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150" alt="Team Member 1">
+                    <h4>Lakshmanan Shyam</h4>
+                    <p>Data Scientist</p>
+                </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>© 2025 Our Business Solutions. All Rights Reserved.</p>
+        <div class="container">
+            <p>© 2025 Our Business Solutions. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
